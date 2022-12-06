@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="200.0" prefWidth="317.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.olamundofx.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label fx:id="lblMensagem" alignment="CENTER" text="Vai aparecer uma mensagem!" textAlignment="CENTER" textFill="#009688">
+        <font>
+          <Font name="System Bold" size="18.0" />
+        </font>
+    </Label>
+    <Button fx:id="btnClick" lineSpacing="1.0" mnemonicParsing="false" onAction="#clicouBotao" prefHeight="37.0" prefWidth="111.0" style="-fx-background-color: #009688; -fx-background-radius: 25px;" text="Clique em Mim!" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+        <font>
+          <Font name="Arial Bold" size="12.0" />
+        </font>
+    </Button>
+</VBox>
